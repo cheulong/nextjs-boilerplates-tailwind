@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import Home from '@/pages/index';
 import I18nProvider from 'next-translate/I18nProvider';
 import commonEN from '../../locales/en/common.json';
@@ -10,6 +10,7 @@ describe('Home', () => {
         <Home />
       </I18nProvider>,
     );
+
     const heading = screen.getByText('Hello world!');
     expect(heading).toBeInTheDocument();
     expect(container).toMatchSnapshot();

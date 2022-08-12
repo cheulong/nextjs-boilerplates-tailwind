@@ -1,14 +1,5 @@
 {
-  "extends": ["plugin:storybook/recommended", "next", "prettier"],
-  "overrides": [
-    {
-      "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"],
-      "rules": {
-        // example of overriding a rule
-        "storybook/hierarchy-separator": "error"
-      }
-    }
-  ],
+  "extends": ["next", "prettier"],
   "rules": {
     "max-lines": ["warn", 200],
     "no-console": "warn"
