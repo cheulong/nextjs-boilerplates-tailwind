@@ -8247,6 +8247,11 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.1.tgz#26c8a3cee6cc05fbcf1e333cd2fc3e003326c0b5"
   integrity sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==
 
+next-translate@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-1.5.0.tgz#b1e5c4a8e55e31b3ed1b9428529f27c289c6b7bc"
+  integrity sha512-6amnuJWw22XbaM2DVhsYaOXelFLjTbMqTgqvB+h9VfE/H2aQ/edfT06ONQLQbsVV/I7Hn+93LTaV1/qOo6Kf9A==
+
 next@12.2.5:
   version "12.2.5"
   resolved "https://registry.yarnpkg.com/next/-/next-12.2.5.tgz#14fb5975e8841fad09553b8ef41fe1393602b717"

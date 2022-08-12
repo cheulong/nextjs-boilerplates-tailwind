@@ -8,6 +8,17 @@ exports[`Home renders a home page 1`] = `
     >
       Navbar!
     </h1>
+    <button>
+      Japanese
+    </button>
+    <br />
+    <button>
+      English
+    </button>
+    <br />
+    <button>
+      Korean
+    </button>
     <h1
       class="title"
     >
