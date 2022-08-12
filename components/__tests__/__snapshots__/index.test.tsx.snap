@@ -13,6 +13,11 @@ exports[`Home renders a home page 1`] = `
     >
       Hello world!
     </h1>
+    <button
+      class="wrapper"
+    >
+      BaseButton
+    </button>
   </div>
 </div>
 `;

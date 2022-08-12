@@ -7,7 +7,7 @@ const buildEslintCommand = (filenames) =>
 
 module.exports = {
   '**/*.(ts|tsx)': () => 'yarn tsc --noEmit',
-  '*.{js,jsx,ts,tsx}': ['yarn format:fix', buildEslintCommand],
-  '*.{css,scss,less}': ['yarn format:fix'],
+  '**/*.{js,jsx,ts,tsx}': ['yarn format:fix', buildEslintCommand],
+  '**/*.{css,scss,less}': ['yarn format:fix'],
   '**/*.(md|json)': (filenames) => `yarn format:fix ${filenames.join(' ')}`,
 };
