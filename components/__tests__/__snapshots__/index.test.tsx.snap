@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders a home page 1`] = `
+<div>
+  <div>
+    <h1
+      class="text-3xl font-bold underline"
+    >
+      Navbar!
+    </h1>
+    <h1
+      class="title"
+    >
+      Hello world!
+    </h1>
+  </div>
+</div>
+`;
